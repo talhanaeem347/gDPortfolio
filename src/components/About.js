@@ -2,7 +2,7 @@ const section = document.createElement('section')
 section.classList.add('min-h-screen', 'bg-cyan-500', 'my-2', 'flex', 'flex-col', 'justify-center', 'items-center')
 section.id = 'about'
 section.innerHTML = `
-<h1 class="text-3xl font-bold text-gray-800 mb-6">About Me</h1>
+<h1 class="text-3xl font-bold text-gray-800 mt-10">About Me</h1>
 <div class="container mx-auto px-4 py-12">
   <p class="text-lg text-gray-800 mb-8">
     I am a highly motivated and experienced Vue.js developer with a passion for web design and logo design.
@@ -14,7 +14,7 @@ section.innerHTML = `
   <div class="flex items-center">
     <div class="w-1/2  m-4 ">
       <h2 class="text-2xl font-bold text-gray-800 mb-4">Skills</h2>
-      <ul class="   pl-5">
+      <ul class=" lg:pl-5 md:pl-4 pl-0">
         <li class="text-xl text-gray-800 mb-4"><span class="font-semibold px-2" ><i class="fa-solid fa-hand-pointer fa-rotate-90 fa-lg"></i></span> Vue.js</li>
         <li class="text-xl text-gray-800 mb-4"><span class="font-semibold px-2" ><i class="fa-solid fa-hand-pointer fa-rotate-90 fa-lg"></i></span> Firebase</li>
         <li class="text-xl text-gray-800 mb-4"><span class="font-semibold px-2" ><i class="fa-solid fa-hand-pointer fa-rotate-90 fa-lg"></i></span> Web Design</li>

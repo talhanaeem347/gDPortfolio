@@ -4,7 +4,7 @@ section.classList.add('min-h-screen', 'bg-cyan-50', 'my-2', 'flex', 'flex-col', 
 section.innerHTML = `
       <div class="container mx-auto px-4 py-12 flex flex-col justify-center items-center">
       <h1 class="text-3xl font-bold text-gray-800 mb-6">Contact Us</h1>
-      <form class="lf:w-1/2 md:w-1/2 w-full">
+      <form class="lf:w-1/2 md:w-1/2 w-full px-4 ">
         <div class="mb-4">
           <label class="block text-gray-700 font-bold mb-2" for="name">
             Name
@@ -24,9 +24,9 @@ section.innerHTML = `
             Message
             <span id="messageError" class="text-red-600 px-8 hidden font-normal">Message is to short</span>
           </label>
-          <textarea  placeholder="Your Mesage" class="w-full border border-gray-400 p-2" id="message"></textarea>
+          <textarea  placeholder="Your Message" class="w-full border border-gray-400 p-2 h-32" id="message"></textarea>
         </div>
-        <button class="bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-600" type="submit">
+        <button class="bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-600 w-1/2" type="submit">
           Submit
         </button>
       </form>
