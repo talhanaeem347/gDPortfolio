@@ -4,7 +4,7 @@ section.id = 'about'
 section.innerHTML = `
 <h1 class="text-3xl font-bold text-gray-800 mt-10">About Me</h1>
 <div class="container mx-auto px-4 py-12">
-  <p class="text-lg text-gray-800 mb-8">
+  <p class="text-lg text-gray-800 text-justify mb-8">
     I am a highly motivated and experienced Vue.js developer with a passion for web design and logo design.
     I have a strong background in developing dynamic, user-friendly websites that deliver an exceptional user
     experience.
